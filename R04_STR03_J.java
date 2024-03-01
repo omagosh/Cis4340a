@@ -1,6 +1,6 @@
 import java.math.BigInteger;
 
-public class Rule04 {
+public class R04_STR03_J {
     BigInteger x = new BigInteger("530500452766");
     String s = x.toString(); // Valid Character Data
     byte[] byteArray = s.getBytes();
