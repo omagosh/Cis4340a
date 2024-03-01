@@ -1,4 +1,4 @@
-public class Rule06 {
+public class R06_MET01_ {
     public static int getAbsAdd(int x, int y) 
     {
         if (x = Integer.MIN_VALUE || y = Integer.MIN_VALUE) {
