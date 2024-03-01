@@ -1,4 +1,4 @@
-public class Rule00 {
+public class R00_IDS03_ {
 
     if (login Successful) {
         logger.severe("User login succeeded for: " + sanitizeUser(username));
