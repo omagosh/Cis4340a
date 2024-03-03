@@ -1,10 +1,12 @@
+import java.util.logging.Logger;
+
 public class R00_IDS03_J {
 
+    Logger sanLogger = new SanitizedTextLogger(logger);
     if (login Successful) {
-        logger.severe("User login succeeded for: " + sanitizeUser(username));
-        }
-        else {
-        logger.severe("User login failed for: " + sanitizeUser(username));
+        sanlogger.severe("User login succeeded for: " + sanitizeUser(username));
+        } else {
+        sanlogger.severe("User login failed for: " + sanitizeUser(username));
         }
         
         public String sanitizeUser(String username) {
