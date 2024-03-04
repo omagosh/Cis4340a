@@ -1,6 +1,6 @@
 # cis4340a
 Lab02
-Rule00 -
+Rule01 -
 Copied over noncompliant code into VSCode
 Created branch Rule01
 Committed to branch Rule01
