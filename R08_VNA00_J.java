@@ -3,7 +3,7 @@ public class R08_VNA00_J {
         private boolean done = false;
         
         @Override public void run() {
-          while (!done) {
+          while (!isDone()) {
             try {
               // ...
               Thread.currentThread().sleep(1000); // Do something
@@ -13,7 +13,11 @@ public class R08_VNA00_J {
           }   
         }
        
-        public void shutdown() {
+        public synchronized boolean isDone() {
+          return done;
+        }
+       
+        public synchronized void shutdown() {
           done = true;
         }
       }
